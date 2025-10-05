@@ -1,7 +1,7 @@
 import tkinter as gui
 from tkinter import HORIZONTAL, messagebox
 import serial
-import ticloseme
+import time
 import numpy as np
 
 arduino = serial.Serial("COM5", 9600)
